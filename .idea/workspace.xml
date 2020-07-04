@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="445dccb5-150b-4db9-9d08-7ea8a09bd3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChuckNorrisJokesApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kb/chucknorrisjokesapi/ApiParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kb/chucknorrisjokesapi/CategoryUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kb/chucknorrisjokesapi/JokesCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kb/chucknorrisjokesapi/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kb/chucknorrisjokesapi/JokesApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kb/chucknorrisjokesapi/JokesCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/chucknorrisjokesapi/JokesCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kb/chucknorrisjokesapi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/chucknorrisjokesapi/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +46,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -82,20 +76,68 @@
       <option name="presentableId" value="Default" />
       <updated>1593867404248</updated>
     </task>
+    <task id="LOCAL-00001" summary="choosing category done">
+      <created>1593891812364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593891812364</updated>
+    </task>
+    <task id="LOCAL-00002" summary="jokes done">
+      <created>1593893175189</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593893175189</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="choosing category done" />
+    <MESSAGE value="jokes done" />
+    <option name="LAST_COMMIT_MESSAGE" value="jokes done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1156" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1593868911258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1156" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593868911258" />
-    <state x="943" y="262" key="Vcs.Push.Dialog.v2" timestamp="1593867653669">
+    <state x="1127" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593893978296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="943" y="262" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593867653669" />
+    <state x="1127" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593893978296" />
+    <state x="1004" y="117" key="CommitChangelistDialog2" timestamp="1593893174784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1004" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593893174784" />
+    <state x="1141" y="278" key="FileChooserDialogImpl" timestamp="1593895108086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1141" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593895108086" />
+    <state x="917" y="178" key="Maven.ArtifactSearchDialog" timestamp="1593892586072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="917" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593892586072" />
+    <state x="862" y="155" key="SettingsEditor" timestamp="1593896360338">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="862" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593896360338" />
+    <state x="943" y="262" key="Vcs.Push.Dialog.v2" timestamp="1593893181227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="943" y="262" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593893181227" />
     <state x="1081" y="284" key="extract.method.dialog" timestamp="1593869758872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1081" y="284" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593869758872" />
+    <state x="1129" y="142" key="refactoring.ChangeSignatureDialog" timestamp="1593894033582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1129" y="142" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593894033582" />
+    <state x="1024" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1593897018319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1024" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593897018319" />
   </component>
 </project>

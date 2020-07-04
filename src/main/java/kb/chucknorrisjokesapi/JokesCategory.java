@@ -3,67 +3,67 @@ package kb.chucknorrisjokesapi;
 import java.util.Optional;
 
 public enum JokesCategory {
-    RANDOM("1"),
-    ANIMAL("2"),
-    CAREER("3"),
-    CELEBRITY("4"),
-    DEV("5"),
-    EXPLICIT("6"),
-    FASHION("7"),
-    FOOD("8"),
-    HISTORY("9"),
-    MONEY("10"),
-    MOVIE("11"),
-    MUSIC("12"),
-    POLITICAL("13"),
-    RELIGION("14"),
-    SCIENCE("15"),
-    SPORT("16"),
-    TRAVEL("17");
-    private String categoryNumber;
+    RANDOM("random"),
+    ANIMAL("animal"),
+    CAREER("career"),
+    CELEBRITY("celebrity"),
+    DEV("dev"),
+    EXPLICIT("explicit"),
+    FASHION("fashion"),
+    FOOD("food"),
+    HISTORY("history"),
+    MONEY("money"),
+    MOVIE("movie"),
+    MUSIC("music"),
+    POLITICAL("political"),
+    RELIGION("religion"),
+    SCIENCE("science"),
+    SPORT("sport"),
+    TRAVEL("travel");
+    private String categoryName;
 
     JokesCategory(String categoryNumber) {
-        this.categoryNumber = categoryNumber;
+        this.categoryName = categoryNumber;
     }
 
-    public String getCategoryNumber() {
-        return categoryNumber;
+    public String getCategoryName() {
+        return categoryName;
     }
 
     public static Optional<JokesCategory> parse(String input) {
-        if (input.contains("1")) {
+        if (input.contains("random")) {
             return Optional.of(JokesCategory.RANDOM);
-        } else if (input.contains("2")) {
+        } else if (input.contains("animal")) {
             return Optional.of(JokesCategory.ANIMAL);
-        } else if (input.contains("3")) {
+        } else if (input.contains("career")) {
             return Optional.of(JokesCategory.CAREER);
-        } else if (input.contains("4")) {
+        } else if (input.contains("celebrity")) {
             return Optional.of(JokesCategory.CELEBRITY);
-        } else if (input.contains("5")) {
+        } else if (input.contains("dev")) {
             return Optional.of(JokesCategory.DEV);
-        } else if (input.contains("6")) {
+        } else if (input.contains("explicit")) {
             return Optional.of(JokesCategory.EXPLICIT);
-        } else if (input.contains("7")) {
+        } else if (input.contains("fashion")) {
             return Optional.of(JokesCategory.FASHION);
-        } else if (input.contains("8")) {
+        } else if (input.contains("food")) {
             return Optional.of(JokesCategory.FOOD);
-        } else if (input.contains("9")) {
+        } else if (input.contains("history")) {
             return Optional.of(JokesCategory.HISTORY);
-        } else if (input.contains("10")) {
+        } else if (input.contains("money")) {
             return Optional.of(JokesCategory.MONEY);
-        } else if (input.contains("11")) {
+        } else if (input.contains("movie")) {
             return Optional.of(JokesCategory.MOVIE);
-        } else if (input.contains("12")) {
+        } else if (input.contains("music")) {
             return Optional.of(JokesCategory.MUSIC);
-        } else if (input.contains("13")) {
+        } else if (input.contains("political")) {
             return Optional.of(JokesCategory.POLITICAL);
-        } else if (input.contains("14")) {
+        } else if (input.contains("religion")) {
             return Optional.of(JokesCategory.RELIGION);
-        } else if (input.contains("15")) {
+        } else if (input.contains("science")) {
             return Optional.of(JokesCategory.SCIENCE);
-        } else if (input.contains("16")) {
+        } else if (input.contains("sport")) {
             return Optional.of(JokesCategory.SPORT);
-        } else if (input.contains("17")) {
+        } else if (input.contains("travel")) {
             return Optional.of(JokesCategory.TRAVEL);
         }
         return Optional.empty();
