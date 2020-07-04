@@ -1,5 +1,7 @@
 package kb.chucknorrisjokesapi;
 
+import kb.chucknorrisjokesapi.model.ApiParameters;
+import kb.chucknorrisjokesapi.model.JokesCategory;
 import lombok.extern.log4j.Log4j;
 
 import java.util.List;

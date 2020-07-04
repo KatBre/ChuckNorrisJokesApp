@@ -1,5 +1,6 @@
-package kb.chucknorrisjokesapi;
+package kb.chucknorrisjokesapi.model;
 
+import kb.chucknorrisjokesapi.model.JokesCategory;
 import lombok.*;
 
 

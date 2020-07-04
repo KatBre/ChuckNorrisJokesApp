@@ -1,6 +1,7 @@
 package kb.chucknorrisjokesapi;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import kb.chucknorrisjokesapi.model.ApiParameters;
 import lombok.extern.log4j.Log4j;
 
 import java.io.IOException;

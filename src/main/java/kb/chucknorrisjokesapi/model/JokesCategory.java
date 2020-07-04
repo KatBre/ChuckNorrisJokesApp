@@ -1,4 +1,4 @@
-package kb.chucknorrisjokesapi;
+package kb.chucknorrisjokesapi.model;
 
 import java.util.Optional;
 
