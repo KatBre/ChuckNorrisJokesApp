@@ -39,7 +39,7 @@ public class JokesApi {
                 HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
                 if (response.statusCode() == 200) {
                     String responseBody = response.body();
-                    Jokes jokes = objectMapper.readValue(responseBody, Jokes].class);
+                    Jokes jokes = objectMapper.readValue(responseBody, Jokes.class);
                     listOfJokes.add(jokes.getValue());
                 } else {
                     log.error("Error: " + response.statusCode());
@@ -60,7 +60,5 @@ public class JokesApi {
                     .replaceAll("\\{category\\}", parameters.getCategory().getCategoryName());
         }
     }
-
-
 }
 
